@@ -13,7 +13,7 @@ deploy:
   region: 'us-east-2'
   app: 'simpleweb'
   env: 'Simpleweb-env'
-  bucket_name: 'arn:aws:s3:::elasticbeanstalk-us-east-2-985424951107'
+  bucket_name: 'elasticbeanstalk-us-east-2-985424951107'
   bucket_path: 'simpleweb'
   on:
     branch: master
